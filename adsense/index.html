@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>PrimoWork | Real Guides for Real People - Freelancing, Side Hustles & Online Income</title>
+  <meta name="description" content="Honest guides about freelancing, side hustles, and earning real money online. Written by people who actually did it. No get-rich-quick nonsense.">
+  <meta name="keywords" content="freelancing, side hustle, work from home, earn money online, paid surveys, passive income, remote work">
+  <meta name="author" content="PrimoWork Team">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta property="og:title" content="PrimoWork - Real Guides for Real People">
+  <meta property="og:description" content="Honest freelancing guides, side hustle ideas, and ways to earn real money online.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://primowork.online">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://primowork.online">
+  <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+  
+  <!-- Preconnect for faster loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3629985226488797"
+     crossorigin="anonymous">
+  </script>
+</head>
+<body>
+
+<!-- Skip to content link for accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- Header -->
+<header class="header">
+  <div class="container header-flex">
+    <div class="logo">
+      <span class="logo-icon">✨</span>
+      <span class="logo-text">PrimoWork</span>
+    </div>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a onclick="showSection('home')">Home</a>
+      <a onclick="showSection('blog')">Blog</a>
+      <a onclick="showSection('surveys')">Paid Surveys</a>
+      <a onclick="showSection('earn')">Earn Money</a>
+      <a onclick="showSection('about')">About</a>
+      <a onclick="showSection('contact')">Contact</a>
+    </nav>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<main id="main-content">
+  <!-- Hero Section -->
+  <section id="homeSection" class="hero">
+    <div class="container">
+      <div class="hero-badge">
+        <span class="badge-icon">⭐</span>
+        Trusted by readers
+      </div>
+      <h1>Real guides for <span class="highlight">real people</span></h1>
+      <p class="hero-subtitle">Freelancing tips, paid surveys, side hustle ideas, and honest advice from people who've been there.</p>
+      <div class="hero-buttons">
+        <button class="btn-primary" onclick="showSection('blog')">
+          <i class="fas fa-book-open"></i> Read Articles
+        </button>
+        <button class="btn-secondary" onclick="showSection('surveys')">
+          <i class="fas fa-dollar-sign"></i> Find Paid Surveys
+        </button>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="stat-number"></span>
+          <span class="stat-label">Free Guides</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-number"></span>
+          <span class="stat-label">Words Published</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Honest Reviews</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blogSection" class="section" style="display: none;">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">📝 Latest Articles</h2>
+        <p class="section-sub">Practical advice. Real experiences. No fluff.</p>
+      </div>
+      <div class="blog-grid" id="blogGrid">
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+          <p>Loading articles...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Paid Surveys Section -->
+  <section id="surveysSection" class="section" style="display: none;">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">💰 Get Paid for Your Opinion</h2>
+        <p class="section-sub">Legitimate survey sites that actually pay real money</p>
+      </div>
+      <div class="blog-grid" id="surveysGrid">
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+          <p>Loading surveys...</p>
+        </div>
+      </div>
+      <div class="info-box">
+        <i class="fas fa-lightbulb"></i>
+        <h3>Tips for Maximizing Survey Earnings</h3>
+        <ul>
+          <li>✅ Complete your profile fully - more surveys match with you</li>
+          <li>✅ Sign up for 3-5 sites to get consistent opportunities</li>
+          <li>✅ Cash out as soon as you reach minimum (don't wait)</li>
+          <li>✅ Use a dedicated email address for survey sites</li>
+          <li>✅ Check daily - surveys fill up quickly</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Earn Money Section -->
+  <section id="earnSection" class="section" style="display: none;">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">💼 Quick Ways to Earn $50+ Today</h2>
+        <p class="section-sub">Real opportunities that pay within days, not weeks</p>
+      </div>
+      <div class="blog-grid" id="earnGrid">
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+          <p>Loading opportunities...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="aboutSection" class="section about-section" style="display: none;">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About PrimoWork</h2>
+        <p class="section-sub">Who we are and why you can trust us</p>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">🎯</div>
+          <h3>Our Mission</h3>
+          <p>To provide honest, actionable advice about earning money online. No get-rich-quick schemes. Just real strategies that work.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">✍️</div>
+          <h3>Who Writes This</h3>
+          <p>Real freelancers, side hustlers, and remote workers who have actually earned money doing what we write about.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">💡</div>
+          <h3>Our Promise</h3>
+          <p>Every recommendation is tested by us first. If we wouldn't use it, we won't recommend it.</p>
+        </div>
+      </div>
+
+      <!-- Author Bio Section -->
+      <div class="author-bio-card">
+        <div class="author-avatar">
+          <span class="avatar-emoji">👨‍💻</span>
+        </div>
+        <div class="author-info">
+          <h3>Meet the Founder</h3>
+          <h4>Frank <span class="author-badge">Founder & Lead Writer</span></h4>
+          <p>Frank started freelancing in 2016 with $0 and no connections. After years of trial and error, he built a sustainable online income. Now he shares what actually works - no fluff, no fake guru tactics.</p>
+          <div class="author-stats">
+            <span><i class="fas fa-clock"></i>Experienced in the field</span>
+            <span><i class="fas fa-users"></i> Helped 500+ Beginners</span>
+            <span><i class="fas fa-chart-line"></i> Earning Freelancer</span>
+          </div>
+          <div class="author-social">
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trust Badges -->
+      <div class="trust-badges">
+        <div class="trust-badge">
+          <i class="fas fa-shield-alt"></i>
+          <span>Privacy Guaranteed</span>
+        </div>
+        <div class="trust-badge">
+          <i class="fas fa-lock"></i>
+          <span>SSL Secure</span>
+        </div>
+        <div class="trust-badge">
+          <i class="fas fa-hand-holding-heart"></i>
+          <span>No Affiliate Spam</span>
+        </div>
+        <div class="trust-badge">
+          <i class="fas fa-headset"></i>
+          <span>Real Support</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contactSection" class="section" style="display: none;">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">📧 Get in Touch</h2>
+        <p class="section-sub">Questions? Comments? We'd love to hear from you.</p>
+      </div>
+      <div class="contact-wrapper">
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="contactName">Your Name <span class="required">*</span></label>
+            <input type="text" id="contactName" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Email Address <span class="required">*</span></label>
+            <input type="email" id="contactEmail" placeholder="john@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="contactMessage">Message <span class="required">*</span></label>
+            <textarea id="contactMessage" rows="5" placeholder="Your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-block">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-note">We reply within 48 hours. No spam, ever.</p>
+        </form>
+        <div class="contact-info">
+          <div class="contact-info-card">
+            <i class="fas fa-envelope"></i>
+            <h4>Email Us</h4>
+            <p>hello@primowork.online</p>
+          </div>
+          <div class="contact-info-card">
+            <i class="fab fa-twitter"></i>
+            <h4>Twitter</h4>
+            <p>@primowork</p>
+          </div>
+          <div class="contact-info-card">
+            <i class="fas fa-clock"></i>
+            <h4>Response Time</h4>
+            <p>Within 48 hours</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-logo">✨ PrimoWork</div>
+        <p>Honest advice for real people trying to earn money online.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a onclick="showSection('blog')">Blog</a>
+        <a onclick="showSection('surveys')">Paid Surveys</a>
+        <a onclick="showSection('earn')">Earn Money</a>
+        <a onclick="showSection('about')">About Us</a>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <a onclick="showLegal('privacy')">Privacy Policy</a>
+        <a onclick="showLegal('terms')">Terms of Service</a>
+        <a onclick="showLegal('disclaimer')">Disclaimer</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </div>
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <p>Get weekly tips. No spam.</p>
+        <div class="footer-newsletter">
+          <input type="email" id="footerEmail" placeholder="Your email">
+          <button onclick="subscribeFooter()">→</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 PrimoWork. All rights reserved.</p>
+      <p class="disclaimer">Disclaimer: Individual results may vary. We share our honest experiences, not guarantees.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top button -->
+<button id="backToTop" class="back-to-top" onclick="scrollToTop()" aria-label="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- Modal -->
+<div id="articleModal" class="modal">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal()">&times;</button>
+    <div id="modalBody"></div>
+    <div class="modal-footer">
+      <button class="btn-secondary" onclick="closeModal()">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- Disqus Comment System (Hidden until post opens) -->
+<div id="disqus_thread" style="display: none;"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
