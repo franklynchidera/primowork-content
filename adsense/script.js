@@ -3,7 +3,7 @@
 // ============================================
 
 // CONFIGURE THIS - YOUR GITHUB INFO
-const GITHUB_USERNAME = "YOUR_USERNAME";  // CHANGE THIS
+const GITHUB_USERNAME = "franklynchidera";  // CHANGE THIS
 const GITHUB_REPO = "primowork-content";   // CHANGE THIS
 
 // Load blog posts from GitHub
